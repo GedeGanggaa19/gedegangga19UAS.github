@@ -1,0 +1,83 @@
+body {
+    background-color: #eaeaea;
+    color: #2D2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16PX;
+}
+
+.navbar .navbar-brand {
+    font-size: 35px;
+}
+
+.navbar .navbar-brand strong span {
+    color: #3CB371;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+    margin: 10px;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-color: #3CB371;
+    width: 0%;
+    height: 4px;
+    transition: all .4s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: white;
+}
+
+.navbar-nav .dropdown-menu li a:hover {
+    background-color: #3CB371;
+}
+
+.product {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-inline-start: 6%;
+}
+
+.product h1 {
+    padding-right: 6%;
+}
+
+.product .card:hover {
+    transform: scale(1.1) translateY(3px);
+    transition: .4s;
+}
+
+.d-flex .bt {
+    width: 170px;
+    height: 40px;
+}
+
+.jarak {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sh {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ff {
+    height: 30px;
+    padding: 0%;
+}
+
+.footer .ul .li .a {
+    color: white;
+}
